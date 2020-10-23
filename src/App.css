@@ -1,0 +1,50 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+img {
+  width: 200px;
+  height: 200px;
+  box-shadow: -2px 2px 10px gray;
+}
+.image {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.category {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 20%;
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 10px;
+  background-color: #6b73dd71;
+  border-radius: 20px;
+}
+.name {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-image: url(https://www.jedinews.com/wp-content/uploads/2019/12/walmart-store-logo.jpg);
+  background-size: cover;
+  background-position: center;
+}
